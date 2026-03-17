@@ -6418,15 +6418,6 @@ do
                 --Dropdown:Remove(<string>) -> nil
                 --Dropdown:Refresh(<table>, <boolean>) -> nil   
 
-                SilentAimSection:Toggle({
-                    Name = "Manipulation",
-                    Flag = "SilentAimManipulation",
-                    Default = false,
-                    Callback = function(Value)
-                        print(Value)
-                    end
-                })
-
                 --Toggle:SetVisibility(<bool>) -> nil
                 --Toggle:Set(<bool>) -> nil
                 --Toggle:Get(<void>) -> Toggle.Value
