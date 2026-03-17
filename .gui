@@ -6419,9 +6419,7 @@ do
                 --Dropdown:Refresh(<table>, <boolean>) -> nil   
 
                 SilentAimSection:Toggle({
-                    Name = "Manipulati
-
-on",
+                    Name = "Manipulation",
                     Flag = "SilentAimManipulation",
                     Default = false,
                     Callback = function(Value)
